@@ -14,7 +14,7 @@ POST /api/v1/sms/send
 }
 ```
 
-1. Name of sender (max. 11 Zeichen)
+1. Name of sender (max. 11 characters)
 1. Name of recipient
 1. Message
 

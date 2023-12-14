@@ -8,15 +8,15 @@ To send an SMS via API, the API token must be regenerated in the panel. This tok
 ```
 POST /api/v1/sms/send
  {
-   "senderName":"FirmaABC",
-   "body":"Witaj w SMSPoint",
+   "senderName":"Company ABC",
+   "body":"Welcome to SMS Point",
    "phone":"49123456789",
 }
 ```
 
-1. Nazwa nadawcy (maks. 11 symboli)
-1. Numer odbiorcy
-1. Treść wiadomości
+1. Absender Name (max. 11 Zeichen)
+1. Nummer des Empfängers
+1. Nachricht
 
 *Example*
 
@@ -24,8 +24,8 @@ POST /api/v1/sms/send
 curl -X POST --header 'Content-Type: application/json;charset=UTF-8'
   --header 'Accept: application/json'
   --header 'X-Auth-Token: 56b560a2-57cd-4071-8e6e-6eacb1979107' -d '{
-  "senderName":"FirmaABC",
-  "body":"Witaj w SMSPoint",
+  "senderName":"Company ABC",
+  "body":"Welcome to SMS Point",
   "phone":"49123456789"
   }
 }' 'https://celman.nvt-it.pl/public/api/v1/sms/send'

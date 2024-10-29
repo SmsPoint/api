@@ -28,7 +28,7 @@ curl -X POST --header 'Content-Type: application/json;charset=UTF-8'
   "body":"Welcome to SMS Point",
   "phone":"49123456789"
   }
-}' 'https://celman.nvt-it.pl/public/api/v1/sms/send'
+}' 'https://app.smspoint.de/public/api/v1/sms/send'
 ```
 
 ## SMS has been successfully sent
